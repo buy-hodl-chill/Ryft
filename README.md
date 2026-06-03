@@ -90,3 +90,31 @@ Bring your own risk management. The app brings the cockpit. 🚀
 <sup>*</sup> If wallets are already connected, make sure to load new wallets up with fresh funds to start clean. Bubble map bots could still link your shadow wallets theoretically due to the short periods of time, or exact same buy amounts. There's no way to fully prevent that, Ryft just helps you with the obvious things.
 
 <img width="200" alt="logo" src="https://github.com/user-attachments/assets/ea16ba4d-ff92-40d1-ba85-065344b0c91d" />
+
+## Troubleshooting
+
+### MacOS
+
+If macOS displays a security warning when opening Ryft, follow these steps:
+
+1. Download and open the application.
+2. If you see a message stating that Ryft is from an unidentified developer, close the dialog.
+3. Open System Settings → Privacy & Security.
+4. Scroll down to the Security section.
+5. Click Open Anyway next to the Ryft warning.
+6. Confirm by clicking Open.
+
+You only need to do this once. Future launches will open normally.
+
+---
+
+### Windows
+
+If Windows Defender SmartScreen displays a warning:
+
+1. Launch Ryft.
+2. When the "Windows protected your PC" message appears, click More info.
+3. Verify that the application name is Ryft.
+4. Click Run anyway.
+
+You only need to do this once. Future launches will typically open without additional prompts.
