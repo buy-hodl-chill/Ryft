@@ -3,6 +3,12 @@
 
 # Ryft: Solana Shadow Trading Bot 🚀
 
+<!-- DOWNLOAD_BUTTONS_START -->
+[![Download for Mac](https://img.shields.io/badge/Download%20for%20Mac-DMG-blue?style=for-the-badge&logo=apple)](https://github.com/buy-hodl-chill/ryft/releases/latest)
+
+[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-EXE-blue?style=for-the-badge&logo=windows)](https://github.com/buy-hodl-chill/ryft/releases/latest)
+<!-- DOWNLOAD_BUTTONS_END -->
+
 Gmgm degen. Welcome to Ryft: a local-first Solana shadow trading bot built for people who want to move fast, mirror smart wallets, and keep their setup clean while hunting for godcandles. 🕯️📈
 
 Ryft watches a leader wallet, detects eligible Solana buy and sell activity, and mirrors those moves across your own configured shadow wallets. You bring the alphas, Ryft brings the execution cockpit.
