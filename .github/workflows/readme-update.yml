@@ -1,0 +1,59 @@
+name: Update README download buttons
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README download links
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          set -e
+
+          MAC_ASSET=$(gh release view "$TAG" --repo "$REPO" --json assets \
+            --jq '.assets[] | select(.name | test(".*\\.dmg$")) | .url' | head -n 1)
+
+          WIN_ASSET=$(gh release view "$TAG" --repo "$REPO" --json assets \
+            --jq '.assets[] | select(.name | test(".*\\.exe$")) | .url' | head -n 1)
+
+          if [ -z "$MAC_ASSET" ]; then
+            echo "No .dmg asset found"
+            exit 1
+          fi
+
+          if [ -z "$WIN_ASSET" ]; then
+            echo "No .exe asset found"
+            exit 1
+          fi
+
+          cat > download-buttons.md <<EOF
+          <!-- DOWNLOAD_BUTTONS_START -->
+          [![Download for Mac](https://img.shields.io/badge/Download%20for%20Mac-DMG-blue?style=for-the-badge&logo=apple)]($MAC_ASSET)
+
+          [![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-EXE-blue?style=for-the-badge&logo=windows)]($WIN_ASSET)
+          <!-- DOWNLOAD_BUTTONS_END -->
+          EOF
+
+          perl -0pi -e '
+            my $replacement = do { local $/; open my $fh, "<", "download-buttons.md"; <$fh> };
+            s/<!-- DOWNLOAD_BUTTONS_START -->.*?<!-- DOWNLOAD_BUTTONS_END -->/$replacement/s
+          ' README.md
+
+      - name: Commit README update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update README download links"
+          file_pattern: README.md
