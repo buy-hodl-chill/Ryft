@@ -9,7 +9,7 @@
 [![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-EXE-blue?style=for-the-badge&logo=windows)](https://github.com/buy-hodl-chill/Ryft/releases/download/v1.0.5/Ryft_1.0.5_x64-setup.exe)
 <!-- DOWNLOAD_BUTTONS_END -->
 
-
+Join the [Telegram](https://t.me/ryft_trader) for updates!
 
 Gmgm degen. Welcome to Ryft: a local-first Solana shadow trading bot built for people who want to move fast, mirror smart wallets, and keep their setup clean while hunting for godcandles. 🕯️📈
 
