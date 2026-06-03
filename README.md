@@ -81,7 +81,7 @@ Ryft gives you:
 Ryft charges the small amount of 2% of shadow wallets that succesfully bought.
 We get that trading on Solana could be ruthless, so we decided not to charge anything for selling.
 
-## Important Degen Disclaimer ⚠️
+## Disclaimer ⚠️
 
 Ryft is powerful software for high-risk crypto activity. It does not guarantee profit, does not magically detect rugs, and does not turn bad alphas into good ones. Mainnet trades can lose money, fail, slip, or execute differently than expected. Start small, and know what you are signing.
 
