@@ -9,14 +9,14 @@
 [![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-EXE-blue?style=for-the-badge&logo=windows)](https://github.com/buy-hodl-chill/Ryft/releases/download/v1.0.5/Ryft_1.0.5_x64-setup.exe)
 <!-- DOWNLOAD_BUTTONS_END -->
 
-*Does this mean I have to trade on my computer instead of my phone?*
-No! Just trade in Phantom, Jupiter or directly on Ray, and Ryft will simply follow your moves with the configured additional wallets you own.
-
 Join the [Telegram](https://t.me/ryft_trader) for updates!
 
 Gmgm degen. Welcome to Ryft: a local-first Solana shadow trading bot built for people who want to move fast, mirror smart wallets, and keep their setup clean while hunting for godcandles. 🕯️📈
 
 Ryft watches a leader wallet, detects eligible Solana buy and sell activity, and mirrors those moves across your own configured shadow wallets. You bring the alphas, Ryft brings the execution cockpit.
+
+*Does this mean I have to trade on my computer instead of my phone?*
+No! Just trade in Phantom, Jupiter or directly on Ray, and Ryft will simply follow your moves with the configured additional wallets you own.
 
 ## Why This Is Amazing ✨
 
