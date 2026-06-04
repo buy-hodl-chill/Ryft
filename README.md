@@ -19,7 +19,7 @@ Ryft watches a leader wallet, detects eligible Solana buy and sell activity, and
 No! Just trade in Phantom, Jupiter or directly on Ray, and Ryft will simply follow your moves with the configured additional wallets you own.
 
 <img width="2009" height="569" alt="screenshots" src="https://github.com/user-attachments/assets/2d5a4c53-4a7c-4489-b3cd-39943c657582" />
-
+<sup>(Bigger screenshots below)</sup>
 
 
 ## Why This Is Amazing ✨
@@ -126,3 +126,7 @@ If Windows Defender SmartScreen displays a warning:
 4. Click Run anyway.
 
 You only need to do this once. Future launches will typically open without additional prompts.
+
+## Screenshots
+
+<img width="1005" height="2145" alt="screenshots-full@0 5x" src="https://github.com/user-attachments/assets/e327ded9-8646-48fd-9ad3-4a483aa57497" />
