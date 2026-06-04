@@ -18,6 +18,10 @@ Ryft watches a leader wallet, detects eligible Solana buy and sell activity, and
 *Does this mean I have to trade on my computer instead of my phone?*
 No! Just trade in Phantom, Jupiter or directly on Ray, and Ryft will simply follow your moves with the configured additional wallets you own.
 
+<img width="2009" height="569" alt="screenshots" src="https://github.com/user-attachments/assets/2d5a4c53-4a7c-4489-b3cd-39943c657582" />
+
+
+
 ## Why This Is Amazing ✨
 
 Ryft turns wallet watching into a real trading workflow. Instead of copy-pasting addresses, juggling tabs, and panic-clicking through swaps, you get a focused desktop app that helps you coordinate multiple shadow wallets from one local dashboard.
